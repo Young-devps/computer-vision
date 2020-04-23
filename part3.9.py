@@ -2,16 +2,13 @@ import cv2
 import numpy as np
 
 
-
-
 cap = cv2.VideoCapture(1)
 
 
 while True:
     _, frame = cap.read()
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-
+    
     #hsv hue sat value
     lower_red = np.array([150,150,50])
     upper_red = np.array([180,255,150])

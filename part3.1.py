@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
                                 
 im = cv2.imread('jump.jpg', cv2.IMREAD_GRAYSCALE)
 #IMREAD_COLOR = 1
